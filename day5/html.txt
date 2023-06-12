@@ -1,0 +1,22 @@
+class have multiple values
+one class value can be use multiple times
+
+
+id is use for uniquely identifying something
+
+absolute is somthing whose impact is not on some other item
+
+
+
+GIT HUB
+#first time
+git init
+
+git status
+git add.
+
+#first time
+git config --global user.name "Gungun jain"
+git config --global user.email "jaingungun249@gmail.com"
+
+git commit -m "your message"
