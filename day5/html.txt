@@ -2,13 +2,14 @@ class have multiple values
 one class value can be use multiple times
 
 
-id is use for uniquely identifying something
+Id is use for uniquely identifying something
 
 absolute is somthing whose impact is not on some other item
 
 
 
-GIT HUB
+                                    GIT HUB setup commands
+
 #first time
 git init
 
@@ -20,3 +21,12 @@ git config --global user.name "Gungun jain"
 git config --global user.email "jaingungun249@gmail.com"
 
 git commit -m "your message"
+
+git remote remove origin
+git remote add origin "link"
+
+# daily commands 
+
+git add.
+ git commit -m "daily comment"
+ git push origin main
