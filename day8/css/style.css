@@ -2,7 +2,7 @@
 
 :root{
     --primaryColor:#213555;
-    --backgroundColor:#fbd49d;  
+    --backgroundColor:#fbecd4;  
     --primaryAccentColor:#4F709C;
     --secondoryColor:#D8c4B6;
     --whiteColor:white;
@@ -129,4 +129,70 @@ a:hover{
     background:linear-gradient(white,rgb(215,215,215))
 }
 
+/* services section */
 
+.services{
+    margin: 5rem;
+    /* padding: 30px 30px; */
+}
+.serviceText{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.textSubHeading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+
+.textHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+}
+
+.serviceCard{
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    padding: 40px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    background-color: white;
+    justify-content: space-around;
+}
+.serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+
+.serviceIcon{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    background-color: var(--primaryAccentColor);
+}
+.serviceTitle{
+   font-size: 1.75rem;
+   margin: 20px 0px;
+}
+
+.serviceFeature{
+    font-size: 1rem;
+    margin:10px 0px;
+}
+
+.serviceFeatureIcon{
+    font-size: 1rem;
+    color: grey;
+
+}
